@@ -1,31 +1,40 @@
+# ===============================
+# Variáveis de ambiente
+# ===============================
 .env
-run_local.py
-venv
-textract_service.py
-llm_refiner_service.py
-file_classifier_service.py
-nlp_service.py
-_pycache_
-run_local.py
-start.sh
 
-# Dependências Python
+# ===============================
+# Ambientes virtuais
+# ===============================
 venv/
 env/
-python/
+
+# ===============================
+# Cache Python
+# ===============================
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Dependências e builds
+# ===============================
 *.egg-info/
 *.dist-info/
 
-# Arquivos de dados e temporários
+# ===============================
+# Dados e arquivos temporários
+# ===============================
 dataset/
 assets/
 *.zip
 *.jpg
 *.png
 
-# Configurações do sistema
-.DS_Store
-.idea/
+# ===============================
+# IDEs e sistema
+# ===============================
 .vscode/
+.idea/
+.DS_Store
