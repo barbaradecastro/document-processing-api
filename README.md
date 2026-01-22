@@ -1,7 +1,7 @@
 Extração e Classificação de Notas Fiscais com AWS
 
 
-📌 Objetivo
+📌 Objetivo 
 
 Construir uma solução automatizada para receber imagens de notas fiscais em arquivo ZIP, extrair informações importantes usando AWS Textract, refinar os dados com técnicas de NLP e LLM, classificar a forma de pagamento e armazenar tudo organizado em buckets no S3.
 
