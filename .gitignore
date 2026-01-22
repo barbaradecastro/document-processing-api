@@ -1,0 +1,31 @@
+.env
+run_local.py
+venv
+textract_service.py
+llm_refiner_service.py
+file_classifier_service.py
+nlp_service.py
+_pycache_
+run_local.py
+start.sh
+
+# Dependências Python
+venv/
+env/
+python/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.dist-info/
+
+# Arquivos de dados e temporários
+dataset/
+assets/
+*.zip
+*.jpg
+*.png
+
+# Configurações do sistema
+.DS_Store
+.idea/
+.vscode/
