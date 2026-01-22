@@ -1,0 +1,7 @@
+boto3==1.38.13
+nltk==3.9.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
+regex==2024.11.6
+botocore
+s3transfer
